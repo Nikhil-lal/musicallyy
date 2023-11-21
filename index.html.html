@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="immg/uo.png" type="image/x-icon">
+    <title>Musicallyy.co-Listen to your favorite 
+        anytime,anywhere</title>
+</head>
+
+<style>
+    /* https://github.com/Nikhil-lal/landing-web-page-of-music.git */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Merriweather:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 20px 155px
+}
+
+
+.logo {
+    padding: 0 7px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.site {
+    color: #F0D800;
+    font-weight: bolder;
+    font-size: larger;
+    margin: 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 15px 20px;
+    color: white;
+    font-size: small;
+    cursor: pointer;
+}
+
+li:hover {
+    color: rgb(209, 185, 53);
+}
+
+.btn button {
+    padding: 8px 25px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+/* 
+.btn-up:hover {
+    color: rgb(209, 185, 53);
+} */
+
+.btn-in:hover {
+    color: rgb(209, 185, 53);
+    border: 1px solid rgb(209, 185, 53);
+}
+
+
+
+
+.btn .btn-up {
+    color: #F0D800;
+    border: none;
+
+
+}
+
+.btn-in {
+    border: 1px solid white;
+    border-radius: 21px;
+
+}
+
+.sepration {
+    height: 1px;
+    background-color: white;
+    margin: 20px 155px
+}
+
+.intro {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 85px;
+    margin: 131px 155px 40px 155px;
+
+
+}
+
+.big h1 {
+
+    font-size: 60px;
+
+}
+
+.h2 {
+    font-family: 'Merriweather', serif;
+    /* font-family: Rubik; */
+}
+
+
+.big-btn {
+    padding: 4px 12px;
+    color: black;
+    background-color: #F0D800;
+    cursor: pointer;
+    border-radius: 15px;
+
+}
+
+.small {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+
+}
+
+.small p {
+    line-height: 28px;
+    font-size: larger;
+    font-family: 'Inconsolata', monospace;
+}
+
+.img1 {
+    margin: 131px 155px 40px 155px;
+}
+
+.img2 {
+    margin: 104px 192px 74px 205px;
+}
+
+.sepration2 {
+    height: 1px;
+    background-color: white;
+}
+
+.details {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 95px;
+}
+
+.detail1 {}
+
+.h-line {}
+
+.p-line {
+    font-size: xx-small;
+    line-height: 20px;
+    margin-top: 29px;
+}
+
+
+
+.detail2 h1 {
+    color: #F0D800;
+
+}
+
+.detail2 p {
+    font-size: small;
+    padding: 15px 0px;
+}
+
+.h50 {
+    margin-top: 15px;
+}
+
+
+
+strong {
+    color: #F0D800;
+}
+
+.manyimg {
+    margin-top: 40px;
+    /* display: flex;
+    gap: 15px;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    padding: 0px 95px;
+
+}
+
+.manyimg img {
+    width: 278px;
+    height: 178px;
+
+}
+
+.explore {
+    /* position: relative;
+    bottom: 15px; */
+}
+
+.explore {
+    /* padding: 4px 12px;
+    color: black;
+    background-color: #F0D800;
+    cursor: pointer;
+    border-radius: 15px; */
+
+    padding: 17px 72px 17px 24px;
+    color: black;
+    background-color: #F0D800;
+    cursor: pointer;
+    border-radius: 100px;
+    position: relative;
+    bottom: 46px;
+    right: -577px;
+    font-weight: 700;
+    font-size: larger;
+}
+
+.img7 {
+    z-index: 1;
+}
+
+.last2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 51px 10px 444px;
+
+}
+
+.last-2-btn button {
+    padding: 6px 11px;
+    background-color: #F0D800;
+    color: black;
+    border-radius: 18px;
+    font-size: 7px;
+    font-weight: 900;
+
+
+}
+
+.last2-p {
+    color: #F0D800;
+    padding-bottom: 15px;
+}
+
+.last2-h {
+    padding: 5px 0px;
+}
+
+.last2 h2 {
+    padding: 7px 0px;
+    font-size: 40px;
+    z-index: 1;
+}
+
+.last2-img1 {
+    position: relative;
+    bottom: 261px;
+    right: 36px;
+    z-index: -1;
+    filter: opacity(0.6);
+    width: 50px;
+    height: 58px;
+}
+
+.last2-img2 {
+    position: relative;
+    left: 494px;
+    bottom: 201px;
+    z-index: -1;
+    transform: rotate(49deg);
+    filter: opacity(0.6);
+    width: 60px;
+    height: 80px;
+
+}
+
+.yellow-line {
+    transform: rotate(-4deg);
+    height: 55px;
+    background-color: #F0D800;
+}
+
+.yellow-line ul {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.yellow-line ul li {
+    list-style: none;
+    color: #000;
+    font-size: 40px;
+}
+
+.tick {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.curve1 {
+    position: relative;
+    left: 1324px;
+    top: 15px;
+}
+
+
+.curve2 {
+    position: relative;
+    bottom: -6px;
+    left: -2px;
+
+}
+
+.tick-p {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.box {
+    background-color: #F0D800;
+    border-radius: 40px;
+    height: 265px;
+    width: 818px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.up {
+    display: flex;
+    align-items: center;
+
+}
+
+.up b {
+    font-size: 16px;
+    font-weight: 900;
+    padding: 0px 2px 0px 11px;
+
+    font-family: 'Rubik', sans-serif
+}
+
+.up span {
+
+    font-family: 'Rubik', sans-serif;
+    font-size: smaller;
+}
+
+.never {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6px 0px 8px 0px
+}
+
+.never h1 {
+    font-size: 43px;
+    font-family: 'Rubik', sans-serif;
+    padding: 18px 0px 8px 0px;
+}
+
+.never p {
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+
+
+
+}
+
+.download img {
+    padding: 0px 10px;
+}
+
+footer {
+    margin-top: 54px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contact-h {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    margin: 10px 0px;
+}
+
+.contact-h h2 {
+    padding: 8px 0px;
+    margin: 2px 55px;
+    font-size: 40px;
+
+
+}
+
+
+.contact-ps {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 11px;
+    margin: 19px 50px;
+    display: flex;
+
+}
+
+.contact-ps p {
+    padding: 0px 6px;
+    font-size: 10px;
+}
+
+.contact-ps span {
+
+    color: #787878;
+    font-size: 10px;
+    padding-left: 9px;
+}
+
+.form {
+    color: white;
+    margin-left: 144px;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.form-p {
+    padding: 10px 0px;
+}
+.form-p p{
+    line-height: 16px;
+}
+
+.form p {
+    font-size: 10px;
+}
+
+.form input {
+
+    background-color: rgba(43, 43, 38, 0);
+    border-style: 1px solid #F0D800 ;
+    border-radius: 8px;
+    padding: 10px 12px;
+    color: white;
+}
+
+.form-span{
+    margin-left: 44px;
+    margin-top: 9px;
+}
+
+.form span {
+    font-size: 8px;
+    padding: 0px 10px;
+
+
+}
+
+.Privacy {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+
+}
+   
+</style>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <!-- <img height="49px"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAMKh6_ydzBsmd-SrzBZTX-vsyFX4eBq_EaA&usqp=CAU"
+                alt=""> -->
+            <img height="49px" src="immg/logo.png" alt="">
+            <span class="site">Musicallyy.co</span>
+        </div>
+
+
+        <ul>
+            <li>Home</li>
+            <li>Category</li>
+            <li>Trending</li>
+            <li>Events</li>
+            <li>Community</li>
+        </ul>
+
+        <div class="btn">
+
+            <button class="btn-up">Sign up</button>
+            <button class="btn-in">Sign in</button>
+        </div>
+    </nav>
+
+    <div class="sepration"></div>
+
+    <div class="intro">
+
+        <div class="big">
+            <h1 class="h1">Listen to your favorite <button class="big-btn"> music</button></h1>
+            <h1 class="h2">anytime,anywhere</h1>
+
+        </div>
+
+        <div class="small">
+            <p>Listen to over 80 millions songs,</p>
+            <p>exclusive release and music in</p>
+            <p>Hi-Fi sound formate</p>
+        </div>
+    </div>
+    <div class="sepration"></div>
+
+    <div class="section">
+
+        <div class="img1"> <img width="1200px" src="immg/img1.png" alt=""></div>
+
+        <div class="img2"><img width="1110px" src="immg/img2.png" alt=""></div>
+
+    </div>
+
+    <div class="sepration2"></div>
+
+    <div class="details">
+
+        <div class="detail1">
+            <div class="h-line">
+                <h1>Some of The Most</h1>
+                <h1>Famous <strong> Artists</strong> Of All</h1>
+                <h1> Time in the world</h1>
+            </div>
+
+            <div class="p-line">
+                <p>World music is an easy way for people to describe the melding </p>
+                <p> traditional and nontraditional music from foreign countries. Generally, </p>
+                <p> world music refers to sounds from the non-Western part of the world.</p>
+            </div>
+
+        </div>
+
+        <div class="detail2">
+
+            <h1>550e,300</h1>
+            <p>People register this website</p>
+            <h1 class="h50">50,000</h1>
+            <p>Virtual concept held this year</p>
+        </div>
+
+    </div>
+    <div class="manyimg">
+
+        <img src="bigimg/img1.jpg" alt="">
+        <img src="bigimg/img2.jpg" alt="">
+        <img src="bigimg/img3.jpg" alt="">
+        <img src="bigimg/img4.png" alt="">
+        <img src="bigimg/img5.png" alt="">
+        <img src="bigimg/img6.png" alt="">
+        <img class="img7" src="bigimg/img7.png" alt="">
+        <img src="bigimg/img8.png" alt="">
+
+
+    </div>
+    <button class="explore">Explore Artist <b> &#x2192; </b></button>
+
+
+    <div class="last2">
+
+        <div class="last2-p">
+            <p>Calling all creator </p>
+        </div>
+        <div class="last2-h">
+            <h2>Get on Up Souly to connect
+                <h2> with fans, share your sounds,</h2>
+                <h2> and grow your audience. What </h2>
+                <h2> are you waiting for?</h2>
+        </div>
+        <div class="last-2-btn">
+            <button>find out more </button>
+        </div>
+
+        <img class="last2-img1" src="immg/Star 2.png" alt="">
+        <img class="last2-img2" src="immg/Star 3.jpg" alt="">
+    </div>
+
+    <div class="yellow-line">
+
+        <ul>
+            <li>&#9734;BEATS</li>
+            <li>&#9734;CHILLOUT</li>
+            <li>&#9734;HOP</li>
+            <li>&#9734;AFROBEAT</li>
+            <li>&#9734;HIPHOP</li>
+            <li>&#9734;DEEP</li>
+            <li>&#9734;BASS</li>
+        </ul>
+
+    </div>
+
+    <div>
+        <div class="curve1"><img src="immg/curve1.png" alt=""></div>
+
+        <div class="tick">
+            <div class="tick-img">
+                <img src="immg/Group 3349.png" alt="">
+            </div>
+
+            <div class="tick-p">
+                <p>The ability to switch outputs on the fly, so you can flip in midstream from the </p>
+                <p>smart speaker in your office to your living room's big sound or from your desktop</p>
+                <p> app to your phone without missing a beat. The service also lets you upload </p>
+                <p> personal content, although the procedure for doing so is cumbersome. </p>
+            </div>
+        </div>
+
+        <div class="curve2"><img src="immg/Group.png" alt=""></div>
+    </div>
+
+    <div class="container">
+        <div class="box">
+
+            <div class="up">
+                <img width="32px" src="immg/uo.png" alt="">
+                <b>Up</b><span>Souly</span>
+            </div>
+            <div class="never">
+                <h1>Never stop listening</h1>
+                <p>An available on Web, iOS, Android, Sonos, Chromecast, and Xbox One</p>
+            </div>
+            <div class="download">
+                <img width="100px" height="30px" src="immg/appstorre.png" alt="">
+                <img width="100px" height="30px" src="immg/playstore.png" alt="">
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+
+        <div class="contact">
+
+            <div class="contact-h">
+
+                <h2>Come enjoy with </h2>
+                <h2>music with us</h2>
+            </div>
+
+            <div class="contact-ps">
+                <p> Facebook </p>
+                <p>|</p>
+                <p>Twitter </p>
+                <p>|</p>
+                <p>LinkedIn </p>
+                <span>©2022 UpSouly</span>
+            </div>
+        </div>
+
+        <div class="form">
+
+            <div class="form-p">
+                <p>Keep up with our new releases, music and what </p>
+                <p>Emma’s been up to.</p>
+            </div>
+            <div>
+                <input type="text" placeholder="Email ">
+            </div>
+            <div class="form-span">
+                <span>Privacy Policy </span>
+                <span>Terms of Service</span>
+            </div>
+        </div>
+
+
+    </footer>
+</body>
+
+</html>
